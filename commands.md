@@ -1,6 +1,6 @@
 Projekt runterladen:
 ```
-
+[cloudera@quickstart ~]$ git clone https://github.com/Meier-Andre/BDE-Zusatz-Kapitel-1-2.git
 ```
 
 
