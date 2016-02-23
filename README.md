@@ -1,5 +1,5 @@
-BDE-Zusatz-Kapitel-1-2
-
+#BDE-Zusatz-Kapitel-1-2
+##HDFS Zugriff über Java API
 Bei diesem Beispiel soll über eine Java Maven Applikation auf das Hadoop FIlesystem zugegriffen. Dazu wird der afzurufenden Jar der Pfad zu einer .txt datei übergeben, welche eine Reihe von Hyperlinks zu txt Dateien enthält. 
 
 Das Java Programm ließt die einzelnen Hyperlinks aus und fügt dessen Inhalte zusammen in eine output.txt Datei.
