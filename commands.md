@@ -6,11 +6,16 @@ Projekt runterladen:
 
 ###Jar Datei erstellen:
 
+###Beispiel Input Datei im HDFS ablegen
+```
+[cloudera@quickstart ~]$ hdfs dfs -put BDE/zusatzaufgaben/Kapitel_1_2/links.txt BDE/zusatzaufgaben/Kapitel_1_2/
+```
 
 ###Jar Datei ausführen:
 
 ```
-[cloudera@quickstart ~]$ hadoop jar BDE/zusatzaufgaben/Kapitel_1_2/hdfs.jar
+[cloudera@quickstart ~]$ [cloudera@quickstart ~]$ hadoop jar BDE/zusatzaufgaben/Kapitel_1_2/hdfs.jar BDE/zusatzaufgaben/Kapitel_1_2/links.txt
+
 Output Path: hdfs://quickstart.cloudera:8020/user/cloudera/BDE/zusatzaufgaben/Kapitel_1_2/append.txt
 File 1 finished
 File 2 finished
